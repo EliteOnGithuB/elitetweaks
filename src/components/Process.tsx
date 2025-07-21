@@ -27,7 +27,8 @@ const steps = [
 
 export const Process = () => {
   return (
-    <section className="px-6 py-16 bg-muted/30">
+    <section className="px-6 py-16 bg-muted/30 animate-fade-in [animation-delay:600ms]"
+      style={{animationFillMode: 'both'}}>
       <div className="max-w-5xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-12">
@@ -41,7 +42,11 @@ export const Process = () => {
           {steps.map((step, index) => (
             <Card 
               key={index}
-              className="bg-gradient-card border-border/20 hover:border-secondary/20 transition-all duration-300 hover:shadow-glow-secondary group text-center"
+              className="bg-gradient-card border-border/20 hover:border-secondary/20 transition-all duration-300 hover:shadow-glow-secondary group text-center animate-fade-in"
+              style={{
+                animationDelay: `${800 + index * 200}ms`,
+                animationFillMode: 'both'
+              }}
             >
               <CardContent className="p-8">
                 <div className="relative mb-6">

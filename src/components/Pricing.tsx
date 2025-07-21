@@ -5,7 +5,8 @@ import { ExternalLink, CreditCard } from "lucide-react";
 
 export const Pricing = () => {
   return (
-    <section className="px-6 py-16">
+    <section className="px-6 py-16 animate-fade-in [animation-delay:800ms]"
+      style={{animationFillMode: 'both'}}>
       <div className="max-w-4xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-12">
@@ -44,6 +45,7 @@ export const Pricing = () => {
               variant="hero" 
               size="xl" 
               className="w-full animate-glow-pulse"
+              onClick={() => window.open('https://discord.gg/fvkCKqNZBV', '_blank')}
             >
               <ExternalLink className="mr-2 h-5 w-5" />
               Get Started Now

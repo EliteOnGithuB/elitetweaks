@@ -85,7 +85,8 @@ const features = [
 
 export const WhatsIncluded = () => {
   return (
-    <section className="px-6 py-16">
+    <section className="px-6 py-16 animate-fade-in [animation-delay:400ms]" 
+      style={{animationFillMode: 'both'}}>
       <div className="max-w-6xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-12">
@@ -102,7 +103,11 @@ export const WhatsIncluded = () => {
           {features.map((feature, index) => (
             <Card 
               key={index} 
-              className="bg-gradient-card border-border/20 hover:border-primary/20 transition-all duration-300 hover:shadow-glow-primary group"
+              className="bg-gradient-card border-border/20 hover:border-primary/20 transition-all duration-300 hover:shadow-glow-primary group animate-fade-in"
+              style={{
+                animationDelay: `${600 + index * 100}ms`,
+                animationFillMode: 'both'
+              }}
             >
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">

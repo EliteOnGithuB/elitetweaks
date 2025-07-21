@@ -19,7 +19,8 @@ const unsupportedSoftware = [
 
 export const ImportantNotes = () => {
   return (
-    <section className="px-6 py-16 bg-muted/30">
+    <section className="px-6 py-16 bg-muted/30 animate-fade-in [animation-delay:1000ms]"
+      style={{animationFillMode: 'both'}}>
       <div className="max-w-5xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-12">

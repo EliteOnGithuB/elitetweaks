@@ -3,7 +3,8 @@ import { ExternalLink, Clock, DollarSign, Shield } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="relative px-6 py-16 text-center">
+    <section className="relative px-6 py-16 text-center animate-fade-in [animation-delay:200ms]"
+      style={{animationFillMode: 'both'}}>
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-hero opacity-50 pointer-events-none" />
       
@@ -32,6 +33,7 @@ export const Hero = () => {
             variant="discord" 
             size="xl" 
             className="animate-glow-pulse"
+            onClick={() => window.open('https://discord.gg/fvkCKqNZBV', '_blank')}
           >
             <ExternalLink className="mr-2 h-5 w-5" />
             Join Discord & Create Ticket

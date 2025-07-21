@@ -3,7 +3,8 @@ import { ExternalLink } from "lucide-react";
 
 export const FinalCTA = () => {
   return (
-    <section className="px-6 py-20 text-center relative">
+    <section className="px-6 py-20 text-center relative animate-fade-in [animation-delay:1200ms]"
+      style={{animationFillMode: 'both'}}>
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-hero opacity-30 pointer-events-none" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(124,58,237,0.1)_0%,transparent_70%)]" />
@@ -25,6 +26,7 @@ export const FinalCTA = () => {
           variant="discord" 
           size="xl" 
           className="animate-glow-pulse shadow-[0_0_50px_rgba(88,101,242,0.6)]"
+          onClick={() => window.open('https://discord.gg/fvkCKqNZBV', '_blank')}
         >
           <ExternalLink className="mr-2 h-6 w-6" />
           Join Discord & Get Started
