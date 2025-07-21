@@ -21,11 +21,18 @@ export const Hero = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-muted-foreground mb-2 max-w-3xl mx-auto leading-relaxed">
           Transform your gaming experience with professional system optimization.
           <br />
           Better FPS, smoother gameplay, and maximum performance guaranteed.
         </p>
+        
+        {/* ELITE branding */}
+        <div className="mb-8">
+          <p className="text-lg text-accent font-bold tracking-wider">
+            — Powered by ELITE —
+          </p>
+        </div>
 
         {/* Main CTA */}
         <div className="mb-8">

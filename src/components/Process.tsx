@@ -6,14 +6,14 @@ const steps = [
     number: "1",
     icon: MessageSquare,
     title: "Create Discord Ticket",
-    description: "Join our Discord and open a ticket to get started",
+    description: "Join ELITE Discord and open a ticket to get started",
     color: "text-blue-400"
   },
   {
     number: "2", 
     icon: Monitor,
     title: "AnyDesk Connection",
-    description: "We'll remotely access your PC to perform all optimizations",
+    description: "ELITE will remotely access your PC to perform all optimizations",
     color: "text-green-400"
   },
   {

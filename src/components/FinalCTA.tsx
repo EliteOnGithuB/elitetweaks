@@ -18,9 +18,16 @@ export const FinalCTA = () => {
           ?
         </h2>
         
-        <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
-          Join thousands of satisfied gamers who've optimized their PCs with our professional service.
+        <p className="text-xl md:text-2xl text-muted-foreground mb-6 max-w-3xl mx-auto leading-relaxed">
+          Join thousands of satisfied gamers who have optimized their PCs with ELITE professional service.
         </p>
+        
+        {/* ELITE signature */}
+        <div className="mb-10">
+          <p className="text-lg font-bold bg-gradient-primary bg-clip-text text-transparent tracking-wider">
+            ELITE OPTIMIZATION SERVICES
+          </p>
+        </div>
 
         <Button 
           variant="discord" 
@@ -33,10 +40,10 @@ export const FinalCTA = () => {
         </Button>
 
         {/* Trust indicators */}
-        <div className="mt-8 text-sm text-muted-foreground">
-          <p>✅ Thousands of satisfied customers</p>
-          <p>⚡ Professional optimization guaranteed</p>
-          <p>🔒 Safe & secure remote access</p>
+        <div className="mt-8 text-sm text-muted-foreground space-y-1">
+          <p>✅ Thousands of satisfied ELITE customers</p>
+          <p>⚡ Professional ELITE optimization guaranteed</p>
+          <p>🔒 Safe & secure ELITE remote access</p>
         </div>
       </div>
     </section>
