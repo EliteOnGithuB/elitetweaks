@@ -19,7 +19,7 @@ export const FinalCTA = () => {
         </h2>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-6 max-w-3xl mx-auto leading-relaxed">
-          Join thousands of satisfied gamers who have optimized their PCs with ELITE professional service.
+          Get professional PC optimization with 3+ years of experience from ELITE optimization services.
         </p>
         
         {/* ELITE signature */}

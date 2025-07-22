@@ -6,7 +6,7 @@ const steps = [
     number: "1",
     icon: MessageSquare,
     title: "Create Discord Ticket",
-    description: "Join ELITE Discord and open a ticket to get started",
+    description: "Join The Discord and open a ticket to get started",
     color: "text-blue-400"
   },
   {
